@@ -1,11 +1,12 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: master
 
-site_url: https://example.com
+site_url: https://it-block-rom.netlify.app/
 
 publish_mode: editorial_workflow
 media_folder: assets/uploads
-
+locale: 'de'
 collections: # A list of collections the CMS should be able to edit
   - name: 'posts' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Posts' # Used in the UI
